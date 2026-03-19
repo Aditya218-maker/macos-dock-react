@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "repoTitle": "AI Chatbot Assistant",
+    "description": "A conversational AI chatbot built using NLP and deep learning techniques for customer support automation.",
+    "tags": ["AI", "NLP", "Chatbot", "Python"],
+    "repoLink": "https://github.com/user/ai-chatbot-assistant",
+    "demoLink": "https://ai-chatbot-demo.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "repoTitle": "Task Manager App",
+    "description": "A full-stack task management app with authentication, drag-and-drop UI, and real-time updates.",
+    "tags": ["React", "Node.js", "MongoDB", "Express"],
+    "repoLink": "https://github.com/user/task-manager-app",
+    "demoLink": "https://taskmanager-demo.netlify.app"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "repoTitle": "Crypto Tracker",
+    "description": "Track real-time cryptocurrency prices and trends with charts and portfolio management features.",
+    "tags": ["Crypto", "API", "JavaScript", "Chart.js"],
+    "repoLink": "https://github.com/user/crypto-tracker",
+    "demoLink": "https://crypto-tracker-demo.vercel.app"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1526378722484-cc5c5105c1a3",
+    "repoTitle": "E-Commerce Platform",
+    "description": "A scalable e-commerce platform with payment integration, product filtering, and admin dashboard.",
+    "tags": ["E-commerce", "Stripe", "React", "Firebase"],
+    "repoLink": "https://github.com/user/ecommerce-platform",
+    "demoLink": "https://ecommerce-demo.netlify.app"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1537432376769-00a3d4a2f9b1",
+    "repoTitle": "Portfolio Website",
+    "description": "A personal developer portfolio website showcasing projects, blogs, and contact form integration.",
+    "tags": ["Portfolio", "HTML", "CSS", "JavaScript"],
+    "repoLink": "https://github.com/user/portfolio-website",
+    "demoLink": "https://portfolio-demo.vercel.app"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "repoTitle": "Weather Forecast App",
+    "description": "A weather forecasting app using OpenWeather API with location-based updates and UI animations.",
+    "tags": ["Weather", "API", "React", "CSS"],
+    "repoLink": "https://github.com/user/weather-app",
+    "demoLink": "https://weather-demo.netlify.app"
+  }
+]

@@ -1,0 +1,60 @@
+.dock{
+    display: flex;
+    gap:1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(5, 78, 78, 0.384);
+    padding-inline: 1rem; //left and right se padding
+    padding-block: 0.7rem; //top aur bottom se padding
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+
+    .icon{
+        padding: 0.65rem;
+        border-radius: 0.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 1/1;
+        border-radius: 1rem;
+        width: 4rem;
+        transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+
+    .github{
+        background-color: black;
+    }
+    .note{
+        background:linear-gradient(to bottom, rgb(221, 106, 65),rgb(232, 152, 123));
+    }
+    .pdf{
+        background:linear-gradient(to bottom, rgb(187, 22, 22), rgb(224, 87, 87));
+    }
+    .calender{
+        background: linear-gradient(to right, rgb(19, 209, 219),blue);
+    }
+    .spotify{
+        background-color:rgb(19, 201, 6);
+    }
+    .cli{
+        background-color: black;
+    }
+    .link{
+        background:linear-gradient(to bottom, rgb(126, 7, 126),rgb(173, 5, 173));
+    }
+    .mail{
+        background: linear-gradient(to bottom,rgb(73, 5, 174),rgb(155, 10, 200));
+    }
+
+    .icon:hover{
+        transform: scale(1.25) translateY(-20%);
+    }
+    //ab hame hover wle icon k ek aage aur peeche wle icon ko b animate krna hai 
+    .icon:hover + .icon, //combinators: jis icon pe hover hoga aur uske baad wla ek aur icon (+ icon)
+    .icon:has(+ .icon:hover)//wo icon jiske aage wle icon pe hover horha ho 
+    {
+        transform: scale(1.1) translateY(-5%);
+    }
+}
