@@ -1,4 +1,4 @@
-//go to spotify -> playlist -> three dots(...) -> share -> embed playlist -> copy link(bottom)
+
 import React from "react";
 import MacWindow from "./MacWindow";
 import "./spotify.scss"
