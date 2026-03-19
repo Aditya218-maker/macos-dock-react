@@ -11,7 +11,6 @@ import { resume } from "react-dom/server"
 
 
 const App = () => {
-//by default all the windows will be closed:false
   const [WindowsState, setWindowsState] = useState({
     github: false,
     note: false,
@@ -24,7 +23,6 @@ const App = () => {
     <main>
       <Navbar/>
       <Dock WindowsState={WindowsState} setWindowsState={setWindowsState}/>
-      {/**matlab render tabhi hoga jab true hoga */}
       {WindowsState.note && <Note windowName="note"  setWindowsState={setWindowsState}/>}
       {WindowsState.github && <Github windowName="github" setWindowsState={setWindowsState}/>} 
       {WindowsState.resume && <Resume windowName="resume"  setWindowsState={setWindowsState}/>}
